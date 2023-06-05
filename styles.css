@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+ #btn {
+      background-color: black;
+      color: white;
+      border: none;
+      width: 100px;
+      height: 40px;
+      border-radius: 10px;
+      
+     }
+     #line{
+      background-color: black;
+      width: 200px;
+      height: 2px;
+      padding: none;
+      animation: rotate 5s infinite;
+      
+     }
+     .container{
+        background-color: antiquewhite;
+        padding: 120px 0px 120px 100px;
+        width: 350px;
+    
+     }
+     @keyframes rotate {
+        form{
+         transform: rotate(0deg) ;
+        }
+        to {
+            transform: rotate(360deg);
+        }
+     }
+/* 
